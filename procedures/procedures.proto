@@ -1,6 +1,6 @@
 syntax = "proto3";
 package procedures;
-option go_package = "perryizgr8.com/gorpc/procedures";
+option go_package = "gorpc/procedures";
 
 message EchoRequest {
     string msg = 1;

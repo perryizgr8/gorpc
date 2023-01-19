@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"google.golang.org/grpc"
-	"perryizgr8.com/gorpc/procedures"
+	"gorpc/procedures"
 )
 
 func main() {

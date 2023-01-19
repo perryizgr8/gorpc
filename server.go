@@ -10,7 +10,7 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
-	"perryizgr8.com/gorpc/procedures"
+	"gorpc/procedures"
 )
 
 type server struct {
