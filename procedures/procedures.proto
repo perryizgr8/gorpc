@@ -1,0 +1,15 @@
+syntax = "proto3";
+package procedures;
+option go_package = "perryizgr8.com/gorpc/procedures";
+
+message EchoRequest {
+    string msg = 1;
+}
+
+message EchoResponse {
+    string msg = 1;
+}
+
+service Ping {
+    rpc Ping(EchoRequest) returns (EchoResponse);
+}
